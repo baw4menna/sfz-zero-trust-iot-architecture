@@ -1,8 +1,8 @@
-\# SFZ-EA: Secure Federated Zero-Trust Edge Architecture for IoT-Metaverse
+# SFZ-EA: Secure Federated Zero-Trust Edge Architecture for IoT-Metaverse
 
 
 
-\## Problem Statement
+## Problem Statement
 
 IoT devices are insecure-by-design, resource-constrained, and generate sensitive data. Existing Metaverse security solutions fail because:
 
@@ -14,17 +14,17 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\## My Role
+## My Role
 
 \*\*Sole Author\*\* – Full architecture design, literature review (40+ papers), requirements analysis, and performance evaluation.
 
 
 
-\## Proposed Architecture (4 Layers)
+## Proposed Architecture (4 Layers)
 
 
 
-\### Layer 1: Zero Trust Endpoint (Physical \& Edge)
+### Layer 1: Zero Trust Endpoint (Physical \& Edge)
 
 \- \*\*TPM (Trusted Platform Module)\*\* – Hardware-rooted device identity
 
@@ -32,7 +32,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\### Layer 2: Federated Learning Edge Intelligence
+### Layer 2: Federated Learning Edge Intelligence
 
 \- \*\*Local CNN-BiLSTM training\*\* on each edge gateway – data never leaves the device
 
@@ -42,7 +42,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\### Layer 3: Blockchain Trust \& Traceability
+### Layer 3: Blockchain Trust \& Traceability
 
 \- \*\*FLCoin committee-based consensus\*\* – <3 seconds latency
 
@@ -50,7 +50,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\### Layer 4: AI Orchestration \& Explainability (Cloud)
+### Layer 4: AI Orchestration \& Explainability (Cloud)
 
 \- \*\*Dynamic trust scores\*\* based on device behavior history
 
@@ -58,7 +58,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\## Performance Metrics
+## Performance Metrics
 
 
 
@@ -76,7 +76,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\## Use Cases
+## Use Cases
 
 \- \*\*Smart Healthcare\*\* – AR goggles transmitting vitals; data never leaves patient's edge
 
@@ -86,7 +86,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\## SDG Alignment
+## SDG Alignment
 
 \- Goal 9: Industry, Innovation \& Infrastructure
 
@@ -96,13 +96,13 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-\## Files
+## Files
 
 \[Full Architecture Report](reports/)
 
 
 
-\## Key Innovation
+## Key Innovation
 
 First architecture to combine TPM hardware root-of-trust + Federated Learning privacy preservation + Blockchain audit trail specifically for IoT-Metaverse convergence.
 
