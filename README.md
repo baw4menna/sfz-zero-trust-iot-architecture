@@ -6,17 +6,17 @@
 
 IoT devices are insecure-by-design, resource-constrained, and generate sensitive data. Existing Metaverse security solutions fail because:
 
-\- They cannot run on low-power IoT edge devices
+- They cannot run on low-power IoT edge devices
 
-\- They expose sensitive biometric/behavioral data
+- They expose sensitive biometric/behavioral data
 
-\- They lack data integrity verification at the source
+- They lack data integrity verification at the source
 
 
 
 ## My Role
 
-\*\*Sole Author\*\* – Full architecture design, literature review (40+ papers), requirements analysis, and performance evaluation.
+*Sole Author* – Full architecture design, literature review (40+ papers), requirements analysis, and performance evaluation.
 
 
 
