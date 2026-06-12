@@ -16,7 +16,7 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 ## My Role
 
-*Sole Author* – Full architecture design, literature review (40+ papers), requirements analysis, and performance evaluation.
+Sole Author – Full architecture design, literature review (40+ papers), requirements analysis, and performance evaluation.
 
 
 
@@ -24,37 +24,37 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 
-### Layer 1: Zero Trust Endpoint (Physical \& Edge)
+### Layer 1: Zero Trust Endpoint (Physical & Edge)
 
-\- \*\*TPM (Trusted Platform Module)\*\* – Hardware-rooted device identity
+- **TPM (Trusted Platform Module)** – Hardware-rooted device identity
 
-\- \*\*OpenZiti overlay network\*\* – Encrypted tunnels, identity-based access
+- **OpenZiti overlay network** – Encrypted tunnels, identity-based access
 
 
 
 ### Layer 2: Federated Learning Edge Intelligence
 
-\- \*\*Local CNN-BiLSTM training\*\* on each edge gateway – data never leaves the device
+- **Local CNN-BiLSTM training** on each edge gateway – data never leaves the device
 
-\- \*\*SMPC (Secure Multi-Party Computation)\*\* – Encrypted gradient aggregation
+- **SMPC (Secure Multi-Party Computation)** – Encrypted gradient aggregation
 
-\- \*\*Privacy preserved by design\*\* – zero raw data sent to cloud
-
-
-
-### Layer 3: Blockchain Trust \& Traceability
-
-\- \*\*FLCoin committee-based consensus\*\* – <3 seconds latency
-
-\- \*\*Smart contracts\*\* – Identity verification, access control, token rewards
+- **Privacy preserved by design** – zero raw data sent to cloud
 
 
 
-### Layer 4: AI Orchestration \& Explainability (Cloud)
+### Layer 3: Blockchain Trust & Traceability
 
-\- \*\*Dynamic trust scores\*\* based on device behavior history
+- **FLCoin committee-based consensus** – <3 seconds latency
 
-\- \*\*XAI dashboard\*\* – Transparent decision-making for non-technical users
+- **Smart contracts** – Identity verification, access control, token rewards
+
+
+
+### Layer 4: AI Orchestration & Explainability (Cloud)
+
+- **Dynamic trust scores** based on device behavior history
+
+- **XAI dashboard** – Transparent decision-making for non-technical users
 
 
 
@@ -63,42 +63,37 @@ IoT devices are insecure-by-design, resource-constrained, and generate sensitive
 
 
 | Metric | Value |
-
 |--------|-------|
-
 | Anomaly detection accuracy | 99.8% (CNN-BiLSTM on benchmark datasets) |
-
 | Blockchain consensus latency | <3 seconds |
-
 | CPU reduction vs traditional security | 10-15% |
-
 | Privacy guarantee | Zero raw data leaves edge devices |
 
 
 
 ## Use Cases
 
-\- \*\*Smart Healthcare\*\* – AR goggles transmitting vitals; data never leaves patient's edge
+- **Smart Healthcare** – AR goggles transmitting vitals; data never leaves patient's edge
 
-\- \*\*Smart Cities\*\* – Traffic sensors + digital twin synchronization
+- **Smart Cities** – Traffic sensors + digital twin synchronization
 
-\- \*\*Industrial Metaverse\*\* – Secure digital twin deployment
+- **Industrial Metaverse** – Secure digital twin deployment
 
 
 
 ## SDG Alignment
 
-\- Goal 9: Industry, Innovation \& Infrastructure
+- Goal 9: Industry, Innovation & Infrastructure
 
-\- Goal 11: Sustainable Cities \& Communities
+- Goal 11: Sustainable Cities & Communities
 
-\- Goal 16: Peace, Justice \& Strong Institutions
+- Goal 16: Peace, Justice & Strong Institutions
 
 
 
 ## Files
 
-\[Full Architecture Report](reports/)
+[Full Architecture Report](reports/)
 
 
 
